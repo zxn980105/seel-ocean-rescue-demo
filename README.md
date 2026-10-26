@@ -2,10 +2,13 @@
 
 依据 `../SEEL_OCEAN_RESCUE_MVP.md` 实现的前端概念原型，全部使用本地 mock 数据，不接 Shopify / 支付 / 捐赠 / 优惠码 API。
 
+在线预览：https://zxn980105.github.io/seel-ocean-rescue-demo/
+
 ```bash
 npm install
 npm run dev      # http://localhost:5173
 npm run build    # 产物在 dist/，可直接静态托管
+npm run deploy   # 构建并发布到 gh-pages 分支（GitHub Pages）
 ```
 
 - 文案、积分、奖励、合作商品：`src/config/mock.ts`
